@@ -6,7 +6,7 @@ find_package(Java 22.0.2 REQUIRED COMPONENTS Development)
 include(UseJava)
 
 file(GLOB_RECURSE java_sources_strategy "${CMAKE_CURRENT_SOURCE_DIR}/strategy/*.java")
-add_jar(HelloWorld
+add_jar(strategy
     SOURCES
         ${java_sources_strategy}
     OUTPUT_NAME
