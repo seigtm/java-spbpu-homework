@@ -6,11 +6,11 @@ public final class Hero {
 
     private MovementStrategy movementStrategy;
 
-    public Hero(MovementStrategy movementStrategy) {
+    public Hero(MovementStrategy movementStrategy) throws NullPointerException {
         setMovementStrategy(movementStrategy);
     }
 
-    public void setMovementStrategy(MovementStrategy movementStrategy) {
+    public void setMovementStrategy(MovementStrategy movementStrategy) throws NullPointerException {
         this.movementStrategy = Objects.requireNonNull(movementStrategy, "Movement strategy cannot be null");
     }
 
