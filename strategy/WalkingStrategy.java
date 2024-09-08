@@ -1,5 +1,3 @@
-package strategy;
-
 public final class WalkingStrategy
         implements MovementStrategy {
 

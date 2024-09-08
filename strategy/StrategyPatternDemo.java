@@ -1,5 +1,3 @@
-import strategy.*;
-
 public final class StrategyPatternDemo {
 
     public static void main(String[] args) {

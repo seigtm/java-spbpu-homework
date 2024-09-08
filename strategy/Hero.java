@@ -1,5 +1,3 @@
-package strategy;
-
 import java.util.Objects;
 
 public final class Hero {
