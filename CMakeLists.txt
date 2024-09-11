@@ -14,3 +14,13 @@ add_jar(strategy
     ENTRY_POINT
         StrategyPatternDemo
 )
+
+file(GLOB_RECURSE java_sources_annotations "${CMAKE_CURRENT_SOURCE_DIR}/annotations/*.java")
+add_jar(annotations
+    SOURCES
+        ${java_sources_annotations}
+    OUTPUT_NAME
+        annotations
+    ENTRY_POINT
+        AnnotationsDemo
+)
