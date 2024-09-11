@@ -34,3 +34,13 @@ add_jar(stream
     ENTRY_POINT
         StreamAPIExamples
 )
+
+file(GLOB_RECURSE java_sources_translator "${CMAKE_CURRENT_SOURCE_DIR}/translator/*.java")
+add_jar(translator
+    SOURCES
+        ${java_sources_translator}
+    OUTPUT_NAME
+        translator
+    ENTRY_POINT
+        Translator
+)
