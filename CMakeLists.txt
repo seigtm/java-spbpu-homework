@@ -24,3 +24,13 @@ add_jar(annotations
     ENTRY_POINT
         AnnotationsDemo
 )
+
+file(GLOB_RECURSE java_sources_stream "${CMAKE_CURRENT_SOURCE_DIR}/stream/*.java")
+add_jar(stream
+    SOURCES
+        ${java_sources_stream}
+    OUTPUT_NAME
+        stream
+    ENTRY_POINT
+        StreamAPIExamples
+)
