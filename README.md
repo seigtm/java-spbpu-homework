@@ -9,7 +9,7 @@ This repository contains a series of practical programming tasks designed to dem
 To get started with this repository, clone it to your local machine:
 
 ```bash
-git clone https://github.com/spbstu-java/labs-seigtm.git
+git clone https://github.com/seigtm/java-spbpu-homework.git
 ```
 
 ### Prerequisites
@@ -24,15 +24,15 @@ git clone https://github.com/spbstu-java/labs-seigtm.git
 
 ## Tasks
 
-### 1. [Hero Movement Strategy](https://github.com/spbstu-java/labs-seigtm/tree/main/strategy)
+### 1. [Hero Movement Strategy](https://github.com/seigtm/java-spbpu-homework/tree/main/strategy)
 
 In this task, a hero (represented by the `Hero` class) can move between two points using different methods: walking, riding a horse, flying, etc. The goal is to implement classes that allow the user to select and change the hero's movement method during program execution, utilizing the ["Strategy" design pattern](https://en.wikipedia.org/wiki/Strategy_pattern). The implementation should include a demonstration of how these classes work together.
 
-### 2. [Annotated Methods](https://github.com/spbstu-java/labs-seigtm/tree/main/annotations)
+### 2. [Annotated Methods](https://github.com/seigtm/java-spbpu-homework/tree/main/annotations)
 
 Create a custom annotation with an integer parameter. Develop a class that contains public, protected, and private methods (2–3 of each kind) with parameters, and annotate some of them. From another class, invoke all annotated protected and private methods the number of times specified in the annotation parameter. The code that invokes these methods should not depend on the number or types of their parameters.
 
-### 3. [Translator Program](https://github.com/spbstu-java/labs-seigtm/tree/main/translator)
+### 3. [Translator Program](https://github.com/seigtm/java-spbpu-homework/tree/main/translator)
 
 Develop a translation program that works as follows:
 
@@ -70,7 +70,7 @@ Develop a translation program that works as follows:
     - `InvalidFileFormatException` for issues related to the dictionary file format.
     - `FileReadException` for cases where the file does not exist or cannot be accessed.
 
-### 4. [Stream API Exercises](https://github.com/spbstu-java/labs-seigtm/tree/main/stream)
+### 4. [Stream API Exercises](https://github.com/seigtm/java-spbpu-homework/tree/main/stream)
 
 Implement the following methods using only Java's Stream API:
 
@@ -83,7 +83,7 @@ Implement the following methods using only Java's Stream API:
 
 ## License
 
-This project is licensed under the **MIT License** - see the [`LICENSE`](https://github.com/spbstu-java/labs-seigtm/tree/main/LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [`LICENSE`](https://github.com/seigtm/java-spbpu-homework/tree/main/LICENSE) file for details.
 
 ## Acknowledgments
 
